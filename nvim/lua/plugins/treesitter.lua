@@ -1,6 +1,6 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	-- Pinned to master: the default "main" branch is a rewrite that dropped the
+	-- pinned to master: the default "main" branch is a rewrite that dropped the
 	-- nvim-treesitter.configs module this config uses. master is still the stable, documented API
 	-- most setups target.
 	branch = "master",
