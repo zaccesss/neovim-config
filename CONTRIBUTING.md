@@ -27,7 +27,6 @@ and lockfile updates.
 
 > [!IMPORTANT]
 > - **Comments**: explain the why, not the what.
-> - **UK English** in prose and documentation.
 
 ## Reporting bugs
 
