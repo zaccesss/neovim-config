@@ -15,3 +15,8 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   completion, plus a plugin lockfile
 - Setup and reference guides
 - CI that loads the config headlessly
+- `ACCESSIBILITY.md`: the high-contrast theme, readable layout and short key sequences.
+
+### Changed
+
+- Tidied code comments and the contributor guide.

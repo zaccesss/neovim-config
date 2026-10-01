@@ -21,7 +21,7 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.smartindent = true
 
--- Real per-language exceptions, tabstop 2 is wrong for these.
+-- real per-language exceptions, tabstop 2 is wrong for these.
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = { "python", "c", "cpp" },
 	callback = function()
