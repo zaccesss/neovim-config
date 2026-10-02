@@ -2,12 +2,18 @@
 
 The config favours a readable screen and short, consistent key sequences. Every binding is listed in [guides/reference.md](guides/reference.md).
 
+> [!NOTE]
+> Some of these settings are preferences rather than requirements. Change them freely in your own copy. If a change would help other people too, open an issue or a pull request so I can consider it for everyone.
+
 ## Vision
 
 - The colour scheme is `tokyonight` in its `night` style, the highest contrast variant.
 - Absolute and relative line numbers are both shown, so a motion such as `5j` needs no counting by eye.
 - The sign column is always reserved, so diagnostics never push the text sideways.
 - Eight lines of context stay visible above and below the cursor. Half-page jumps keep the cursor centred.
+
+> [!IMPORTANT]
+> The colour scheme needs a true-colour terminal, since `termguicolors` is on. Inside tmux the `terminal-overrides` line from [tmux-config](https://github.com/zaccesss/tmux-config) is needed as well, otherwise the colours fall back to 256-colour approximations and lose contrast.
 
 ## Keyboard and motor
 
@@ -26,3 +32,8 @@ The config favours a readable screen and short, consistent key sequences. Every 
 ## Feedback wanted
 
 If something here gets in the way, open an [issue](https://github.com/zaccesss/neovim-config/issues/new/choose) describing what happened and what would work better.
+
+## The shared statement
+
+> [!NOTE]
+> I keep one shared accessibility statement for all my projects: [zaccesss/accessibility](https://github.com/zaccesss/accessibility) or on [my site](https://isaacadjei.me/accessibility). This file takes precedence where the two differ.
