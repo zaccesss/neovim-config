@@ -9,6 +9,10 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+- `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the true-colour requirement and a link to the shared accessibility statement.
+
 ### Added
 
 - Initial release: Lua config with lazy.nvim, Mason LSP servers, treesitter, Telescope and
