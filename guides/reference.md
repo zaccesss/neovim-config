@@ -45,7 +45,7 @@ editing a central list.
 
 | Plugin | What it does |
 | --- | --- |
-| `tokyonight.nvim` | Colourscheme, `night` style, the highest contrast variant |
+| `tokyonight.nvim` | Colourscheme: `night`, the highest contrast dark style, on a dark terminal and `day` on a light one, picked from the terminal's own background |
 | `nvim-treesitter` | Syntax highlighting and indentation, pinned to `master`, see below |
 | `telescope.nvim` | Fuzzy finder, backed by `ripgrep` for grep and native fzf sort |
 | `mason.nvim` / `mason-lspconfig.nvim` | Installs and manages LSP servers |

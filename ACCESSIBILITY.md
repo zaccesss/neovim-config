@@ -7,7 +7,7 @@ The config favours a readable screen and short, consistent key sequences. Every 
 
 ## Vision
 
-- The colour scheme is `tokyonight` in its `night` style, the highest contrast variant.
+- The colour scheme is `tokyonight`: its `night` style, the highest contrast variant, on a dark terminal and its `day` style on a light one. Neovim reads the terminal's background when it starts and redraws if the background changes.
 - Absolute and relative line numbers are both shown, so a motion such as `5j` needs no counting by eye.
 - The sign column is always reserved, so diagnostics never push the text sideways.
 - Eight lines of context stay visible above and below the cursor. Half-page jumps keep the cursor centred.
