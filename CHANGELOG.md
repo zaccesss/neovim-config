@@ -11,6 +11,7 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- The colour scheme follows the terminal's light or dark background: tokyonight's `night` style on dark and `day` on light, redrawn when the background changes.
 - `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the true-colour requirement and a link to the shared accessibility statement.
 
 ### Added
