@@ -45,14 +45,14 @@ editing a central list.
 
 | Plugin | What it does |
 | --- | --- |
-| `tokyonight.nvim` | Colourscheme: `night`, the highest contrast dark style, on a dark terminal and `day` on a light one, picked from the terminal's own background |
+| `colors/high-contrast.lua` | Colour scheme (no plugin): uses only the terminal's 16 colours, so it follows the terminal palette in light and dark mode |
 | `nvim-treesitter` | Syntax highlighting and indentation, pinned to `master`, see below |
 | `telescope.nvim` | Fuzzy finder, backed by `ripgrep` for grep and native fzf sort |
 | `mason.nvim` / `mason-lspconfig.nvim` | Installs and manages LSP servers |
 | `nvim-lspconfig` | Wires each server up via `vim.lsp.config`/`vim.lsp.enable`, the current native API (see below) |
 | `nvim-cmp` | Autocompletion, LSP and snippet sources |
 | `gitsigns.nvim` | Git status in the sign column |
-| `lualine.nvim` | Statusline |
+| `lualine.nvim` | Statusline, with a theme of the terminal's text colour and a reversed mode block |
 | `which-key.nvim` | Shows the leader-key mappings as a popup |
 
 ## LSP servers (via Mason)

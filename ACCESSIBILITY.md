@@ -7,13 +7,14 @@ The config favours a readable screen and short, consistent key sequences. Every 
 
 ## Vision
 
-- The colour scheme is `tokyonight`: its `night` style, the highest contrast variant, on a dark terminal and its `day` style on a light one. Neovim reads the terminal's background when it starts and redraws if the background changes.
+- The colour scheme is `high-contrast` (`colors/high-contrast.lua`). Every colour in it is one of the terminal's own 16, so Neovim shows exactly the terminal's palette and follows it between light and dark mode.
+- Meaning never rests on colour alone. Selection, search matches, the status line mode block and menus use reverse video. Keywords and errors are bold. Diagnostics are underlined in the text.
 - Absolute and relative line numbers are both shown, so a motion such as `5j` needs no counting by eye.
 - The sign column is always reserved, so diagnostics never push the text sideways.
 - Eight lines of context stay visible above and below the cursor. Half-page jumps keep the cursor centred.
 
 > [!IMPORTANT]
-> The colour scheme needs a true-colour terminal, since `termguicolors` is on. Inside tmux the `terminal-overrides` line from [tmux-config](https://github.com/zaccesss/tmux-config) is needed as well, otherwise the colours fall back to 256-colour approximations and lose contrast.
+> The colour scheme is only as clear as the terminal's own palette, since it draws with the terminal's 16 colours (`termguicolors` is off). The High Contrast profile in [terminal-config](https://github.com/zaccesss/terminal-config) is designed for it. Any palette whose colours read well on its background works too.
 
 ## Keyboard and motor
 

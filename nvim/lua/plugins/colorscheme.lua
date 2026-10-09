@@ -1,18 +1,14 @@
+-- the High Contrast scheme lives in colors/high-contrast.lua and uses the terminal's own 16 colours, so it needs no
+-- plugin. Applying it here keeps it the last word on colours once the plugins have loaded. Light and dark come from
+-- the terminal palette itself, so there is nothing to switch when the system appearance changes.
 return {
-	"folke/tokyonight.nvim",
-	priority = 1000, -- load before anything else that might reference its colours
-	config = function()
-		-- night is tokyonight's highest contrast dark style and day its light one. Plain "tokyonight"
-		-- picks between them from 'background', which Neovim sets from the terminal's own background
-		-- at startup, so it matches the terminal's light or dark palette
-		require("tokyonight").setup({ style = "night", light_style = "day" })
-		vim.cmd.colorscheme("tokyonight")
-		-- the terminal can switch while Neovim is open, so redraw whenever 'background' changes
-		vim.api.nvim_create_autocmd("OptionSet", {
-			pattern = "background",
-			callback = function()
-				vim.cmd.colorscheme("tokyonight")
-			end,
-		})
-	end,
+	{
+		dir = vim.fn.stdpath("config"),
+		name = "high-contrast",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			vim.cmd.colorscheme("high-contrast")
+		end,
+	},
 }
