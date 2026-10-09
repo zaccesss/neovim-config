@@ -9,6 +9,10 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- Screenshots and short animations of the config in action, dark and light, in the README's In action section.
+
 ### Changed
 
 - The colour scheme is now `high-contrast`, written for this config. It draws only with the terminal's 16 colours, so Neovim matches the terminal palette exactly in light and dark mode. tokyonight is removed.
