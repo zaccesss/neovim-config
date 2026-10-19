@@ -35,6 +35,18 @@ nvim
 installs the four LSP servers. Watch the bottom status line, this takes a couple of minutes on a
 fresh install and needs an internet connection.
 
+`telescope-fzf-native` compiles a small C library for faster fuzzy sorting. It builds with `make`
+on macOS and Linux and with `cmake` on Windows, plus a C compiler (`cc`, `gcc`, `clang` or MSVC's
+`cl`). On Windows, for example:
+
+```powershell
+winget install Kitware.CMake
+```
+
+Run `nvim` from a terminal where the compiler is on `PATH` (a Developer PowerShell for MSVC).
+Without the build tools the plugin is skipped and Telescope uses its built-in sorter instead, so
+nothing errors. After installing them, run `:Lazy build telescope-fzf-native.nvim` once.
+
 ## Verify it worked
 
 ```sh
