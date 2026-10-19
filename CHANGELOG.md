@@ -9,23 +9,11 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Fixed
-
-- `telescope-fzf-native` now builds on Windows with `cmake`, keeping `make` on macOS and Linux. It is skipped when the build tools or a C compiler are missing. Telescope then falls back to its built-in sorter instead of erroring.
-- A `.gitattributes` keeps `nvim/lazy-lock.json` on LF endings, so Windows no longer shows the lock file as modified after a plugin sync.
+## 2026-10-19
 
 ### Added
 
 - Screenshots and short animations of the config in action, dark and light, in the README's In action section.
-
-### Changed
-
-- The colour scheme is now `high-contrast`, written for this config. It draws only with the terminal's 16 colours, so Neovim matches the terminal palette exactly in light and dark mode. tokyonight is removed.
-- The status line uses a theme of the terminal's text colour with a reversed mode block, so it stays clear on a light background.
-- `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the true-colour requirement and a link to the shared accessibility statement.
-
-### Added
-
 - Initial release: Lua config with lazy.nvim, Mason LSP servers, treesitter, Telescope and
   completion, plus a plugin lockfile
 - Setup and reference guides
@@ -34,4 +22,12 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- The colour scheme is now `high-contrast`, written for this config. It draws only with the terminal's 16 colours, so Neovim matches the terminal palette exactly in light and dark mode. tokyonight is removed.
+- The status line uses a theme of the terminal's text colour with a reversed mode block, so it stays clear on a light background.
+- `ACCESSIBILITY.md`: a note that the settings are preferences, a callout for the true-colour requirement and a link to the shared accessibility statement.
 - Tidied code comments and the contributor guide.
+
+### Fixed
+
+- `telescope-fzf-native` now builds on Windows with `cmake`, keeping `make` on macOS and Linux. It is skipped when the build tools or a C compiler are missing. Telescope then falls back to its built-in sorter instead of erroring.
+- A `.gitattributes` keeps `nvim/lazy-lock.json` on LF endings, so Windows no longer shows the lock file as modified after a plugin sync.
