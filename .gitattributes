@@ -1,0 +1,3 @@
+# lazy.nvim always writes its lock file with LF endings, so a CRLF checkout on Windows
+# would show it as modified after every plugin sync
+nvim/lazy-lock.json text eol=lf

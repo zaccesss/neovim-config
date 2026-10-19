@@ -9,6 +9,11 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+
+- `telescope-fzf-native` now builds on Windows with `cmake`, keeping `make` on macOS and Linux. It is skipped when the build tools or a C compiler are missing. Telescope then falls back to its built-in sorter instead of erroring.
+- A `.gitattributes` keeps `nvim/lazy-lock.json` on LF endings, so Windows no longer shows the lock file as modified after a plugin sync.
+
 ### Added
 
 - Screenshots and short animations of the config in action, dark and light, in the README's In action section.
