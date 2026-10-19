@@ -20,6 +20,8 @@ Screenshots in the High Contrast palette, dark and light. Each one links to a sh
   `lazy.nvim`, which reads every file under `lua/plugins/`.
 - **[`nvim/lazy-lock.json`](nvim/lazy-lock.json)** - the exact plugin commit each spec resolved
   to, so a fresh install gets the same versions rather than whatever is newest that day.
+- **`.gitattributes`** - keeps `nvim/lazy-lock.json` on LF line endings, so a Windows checkout
+  does not show it as modified after each plugin sync.
 
 ## Setup
 
