@@ -14,18 +14,8 @@ to a short animation of the same scene.
 | --- | --- |
 | [![Dark: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Deep Contrast colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-dark.webp)](docs/demo/terminal-dark.gif) | [![Light: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Deep Contrast colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-light.webp)](docs/demo/terminal-light.gif) |
 
-### Re-recording
-
-Each scene is a [VHS](https://github.com/charmbracelet/vhs) script in [`docs/demo`](docs/demo),
-recorded once per theme in a throwaway demo under `/tmp/demo`, so the shots show the real config
-with nothing personal on screen. The colours come from
-[Zacess Themes](https://github.com/zacesshq/themes).
-
-```sh
-brew install vhs gifsicle webp
-docs/demo/record.sh           # every scene, dark and light
-docs/demo/record.sh terminal  # one scene, by its file name
-```
+The shots show the real config in a throwaway demo project, in
+[Zacess Themes](https://github.com/zacesshq/themes) Deep Contrast Dark and Light.
 
 ## What's here
 
