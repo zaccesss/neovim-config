@@ -5,17 +5,22 @@
 
 ## In action
 
-Screenshots in Zacess Deep Contrast Dark and Light, recorded in a demo project. Each one links
-to a short animation of the same scene.
+Screenshots in four Zacess themes, Deep Contrast Dark and Light, Yellow on Black and Cream,
+recorded in a demo project. Each one links to a short animation of the same scene.
 
 ### Neovim
 
-| Dark | Light |
+| Deep Contrast Dark | Deep Contrast Light |
 | --- | --- |
 | [![Dark: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Deep Contrast colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-dark.webp)](docs/demo/terminal-dark.gif) | [![Light: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Deep Contrast colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-light.webp)](docs/demo/terminal-light.gif) |
 
+| Yellow on Black | Cream |
+| --- | --- |
+| [![Yellow on Black: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Yellow on Black colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-yellow-on-black.webp)](docs/demo/terminal-yellow-on-black.gif) | [![Cream: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Cream colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-cream.webp)](docs/demo/terminal-cream.gif) |
+
 The shots show the real config in a throwaway demo project, in
-[Zacess Themes](https://github.com/zacesshq/themes) Deep Contrast Dark and Light.
+[Zacess Themes](https://github.com/zacesshq/themes) Deep Contrast Dark and Light, Yellow on Black
+and Cream.
 
 ## What's here
 
