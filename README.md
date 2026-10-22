@@ -5,13 +5,27 @@
 
 ## In action
 
-Screenshots in the High Contrast palette, dark and light. Each one links to a short animation of the same scene.
+Screenshots in Zacess Deep Contrast Dark and Light, recorded in a demo project. Each one links
+to a short animation of the same scene.
 
 ### Neovim
 
 | Dark | Light |
 | --- | --- |
-| [![Dark: Neovim with the high-contrast colour scheme editing a Python file, with the status line at the bottom](docs/demo/neovim-dark.webp)](docs/demo/terminal-dark.gif) | [![Light: Neovim with the high-contrast colour scheme editing a Python file, with the status line at the bottom](docs/demo/neovim-light.webp)](docs/demo/terminal-light.gif) |
+| [![Dark: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Deep Contrast colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-dark.webp)](docs/demo/terminal-dark.gif) | [![Light: Neovim with the high-contrast colour scheme, drawn in the terminal's Zacess Deep Contrast colours, editing a Python file, with relative line numbers and the status line at the bottom](docs/demo/neovim-light.webp)](docs/demo/terminal-light.gif) |
+
+### Re-recording
+
+Each scene is a [VHS](https://github.com/charmbracelet/vhs) script in [`docs/demo`](docs/demo),
+recorded once per theme in a throwaway demo under `/tmp/demo`, so the shots show the real config
+with nothing personal on screen. The colours come from
+[Zacess Themes](https://github.com/zacesshq/themes).
+
+```sh
+brew install vhs gifsicle webp
+docs/demo/record.sh           # every scene, dark and light
+docs/demo/record.sh terminal  # one scene, by its file name
+```
 
 ## What's here
 

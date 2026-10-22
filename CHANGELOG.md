@@ -9,6 +9,10 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- The screenshots and clips are recorded again in Zacess Deep Contrast Dark and Light from VHS scripts in `docs/demo`, using the real config in a throwaway demo project. `docs/demo/record.sh` makes them all again with one command.
+
 ## 2026-10-19
 
 ### Added
