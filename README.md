@@ -10,3 +10,9 @@ This repository's Neovim configuration has moved to the `editors/neovim` folder 
 
 > [!NOTE]
 > This repository is archived and read-only.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/demo/neovim-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="docs/demo/neovim-light.webp">
+  <img alt="Neovim in the Zacess Dark theme (the Zacess Light theme in light mode)" src="docs/demo/neovim-dark.webp">
+</picture>
